@@ -40,7 +40,7 @@ SQL 4. Ödevi
 5. *city* tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 
 ```SQL
-      SELECT * FROM city
+      SELECT COUNT(*) FROM city
       WHERE city ILIKE '%R';
 ```
 
