@@ -43,5 +43,3 @@ SQL 4. Ödevi
       SELECT COUNT(*) FROM city
       WHERE city ILIKE '%R';
 ```
-
-***
